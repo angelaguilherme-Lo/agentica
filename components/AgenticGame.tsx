@@ -221,6 +221,7 @@ export default function AgenticGame() {
             </div>
             <button className="primary-cta" onClick={() => setStarted(true)}>ENTER THE LAB <span>→</span></button>
             <p className="micro-copy">32 elements · 8 missions · local progress save · no account required</p>
+            <p className="micro-copy">Designed and developed by Angela Guilherme</p>
           </div>
           <div className="splash-art" aria-label="Comic illustration of an agentic AI laboratory">
             <div className="speed-lines" />
@@ -455,6 +456,7 @@ export default function AgenticGame() {
 
       <footer className="game-footer">
         <span>AGENTICA · Agentic AI Periodic Table Game</span>
+        <span>Designed and developed by Angela Guilherme</span>
         <span>Understand → Build → Run → Break → Fix</span>
       </footer>
     </main>
